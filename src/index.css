@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Fonts: Plus Jakarta Sans, Inter & Antonio (Portavia style) */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    /* scroll-behavior: smooth; - Handled by Lenis GSAP */
+  }
+  body {
+    @apply bg-background-main text-text-main font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}
+
+/* Glass effect for navbar pill */
+.glass-pill {
+  @apply bg-white/95 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border border-white/40;
+}
