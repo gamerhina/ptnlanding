@@ -259,7 +259,7 @@ const InfographicSection = () => {
       image: '/assets/card_point_1.jpg',
       points: [
         'Pertanian selalu dibutuhkan, tidak bisa tergantikan oleh AI.',
-        'Ada 8 miliar manusia yang harus makan setiap harinya.'
+        'Ada 8 miliar manusia yang harus makan setiap hari.'
       ]
     },
     {
@@ -622,7 +622,7 @@ const AlumniSection = () => {
 
   const alumniData = [
     { id: 101, name: 'Aziz Maulana', role: 'Professional', company: 'Sugar Group Company', photo: '/assets/alumni_aziz.png' },
-    { id: 104, name: 'Ade Armando', role: 'Professional', company: 'Bank Syariah Indonesia', photo: '/assets/alumni_ade.png' },
+    { id: 104, name: 'Ade Herdian', role: 'Professional', company: 'Bank Syariah Indonesia', photo: '/assets/alumni_ade.png' },
     { id: 102, name: 'Ketut Septia Putri', role: 'ASN', company: 'Lampung Tengah', photo: '/assets/alumni_ketut.png' },
     { id: 103, name: 'Ummu Khairun Nisa', role: 'Professional', company: 'PT Gunung Sejahtera Puti Pesona (GSPP)', photo: '/assets/alumni_ummu.png' },
     { id: 1, name: 'Adi Damar', role: 'Julong Group Indonesia', company: 'PT Rezeki Kencana', photo: '/assets/alumni_adi.png' },
@@ -643,6 +643,7 @@ const AlumniSection = () => {
     { id: 16, name: 'Astuti ', role: 'Instansi Pemerintah', company: 'Badan Karantina Indonesia', photo: '/assets/alumni_13.png' },
     { id: 17, name: 'UPTD BPTPH', role: 'Instansi Pemerintah', company: 'UPTD BPTPH', photo: '/assets/alumni_14.png' },
     { id: 18, name: 'Widyaningrum AS', role: 'ASN PLP', company: 'Perguruan Tinggi Negeri', photo: '/assets/alumni_15.png' },
+    { id: 19, name: 'Yopi Almuhayat', role: 'Professional', company: 'PT Great Giant Food', photo: '/assets/alumni_yopi.png' },
   ];
 
   const totalItems = alumniData.length;

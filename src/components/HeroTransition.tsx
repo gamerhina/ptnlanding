@@ -46,7 +46,7 @@ const HeroTransition = () => {
   const contentY = useTransform(scrollYProgress, [0.25, 0.4], [50, 0]);
 
   const accordionItems = [
-    { id: 1, title: 'Jurusan', highlight: 'Evergreen', content: ['Pertanian selalu dibutuhkan, tidak bisa tergantikan oleh AI.', 'Ada 8 miliar manusia yang harus makan setiap harinya.'] },
+    { id: 1, title: 'Jurusan', highlight: 'Evergreen', content: ['Pertanian selalu dibutuhkan, tidak bisa tergantikan oleh AI.', 'Ada 8 miliar manusia yang harus makan setiap hari.'] },
     { id: 2, title: 'Jurusan', highlight: 'Hidden Gem', content: ['Jurusan langka, hanya ada di 14 perguruan tinggi di Indonesia.','Ilmu spesifik yang fokus pada perlindungan tanaman.'] },
     { id: 3, title: 'Prospek', highlight:  'Masa Depan Cerah', content: ['Masuk mudah, kuliah menyenangkan, lapangan kerja luas.','Peluang karir: Pertanian, Industri, Pemerintahan, BUMN, Danantara, dll.']},
     { id: 4, title: 'Kuliah Murah, Fasilitas', highlight: 'Sultan', content: ['UKT bersahabat, tapi dapet akses ke lab digital berbasis AI dan dosen-dosen pakar.', 'Belajar langsung di lapangan lewat proyek nyata yang bikin kamu siap berkarir setelah lulus.'] }
