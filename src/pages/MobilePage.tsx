@@ -644,6 +644,7 @@ const AlumniSection = () => {
     { id: 17, name: 'UPTD BPTPH', role: 'Instansi Pemerintah', company: 'UPTD BPTPH', photo: '/assets/alumni_14.png' },
     { id: 18, name: 'Widyaningrum AS', role: 'ASN PLP', company: 'Perguruan Tinggi Negeri', photo: '/assets/alumni_15.png' },
     { id: 19, name: 'Yopi Almuhayat', role: 'Professional', company: 'PT Great Giant Food', photo: '/assets/alumni_yopi.png' },
+    { id: 20, name: 'Sakti Hadma', role: 'Professional', company: 'PT Rentokill', photo: '/assets/alumni_sakti.png' },
   ];
 
   const totalItems = alumniData.length;
