@@ -625,6 +625,7 @@ const AlumniSection = () => {
     { id: 104, name: 'Ade Herdian', role: 'Professional', company: 'Bank Syariah Indonesia', photo: '/assets/alumni_ade.png' },
     { id: 102, name: 'Ketut Septia Putri', role: 'ASN', company: 'Lampung Tengah', photo: '/assets/alumni_ketut.png' },
     { id: 103, name: 'Ummu Khairun Nisa', role: 'Professional', company: 'PT Gunung Sejahtera Puti Pesona (GSPP)', photo: '/assets/alumni_ummu.png' },
+    { id: 105, name: 'Devi Agustina', role: 'Internasional', company: 'Agriculture Specialties (South East Asia) at Nouryon', photo: '/assets/alumni_devi.png' },
     { id: 1, name: 'Adi Damar', role: 'Julong Group Indonesia', company: 'PT Rezeki Kencana', photo: '/assets/alumni_adi.png' },
     { id: 2, name: 'Afrianda', role: 'Purchasing Staff', company: 'PT MAJU MAPAN YIC', photo: '/assets/alumni_afrianda.png' },
     { id: 3, name: 'Amalia Cahya', role: 'Badan Karantina Indonesia', company: 'Badan Karantina Indonesia', photo: '/assets/alumni_amalia.png' },
@@ -649,7 +650,7 @@ const AlumniSection = () => {
 
   const totalItems = alumniData.length;
   const angleStep = 360 / totalItems; 
-  const radius = 1100; // Wider spacing between photos
+  const radius = 1180; // Wider spacing between photos - increased for 26 alumni
   const cardWidth = 280; 
   const cardHeight = 390; 
 
